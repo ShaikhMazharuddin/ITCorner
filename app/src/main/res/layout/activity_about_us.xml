@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/about" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="left"
+            android:text="Our Institute"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ellipsize="start"
+            android:text="IT Corner, a leading IT Training provider, provides the full gamut of training methodologies and real-time learning experience to deliver integrated learning solutions. Here quality comes First and being the Best at what we do is our way of life. IT Corner is highly recommended by corporate as source of good quality candidates. It has also been ranked as No. 1 Institute for the Quality of Teaching and related services."
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="left"
+            android:text="Real Time Learning Experience"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ellipsize="start"
+            android:text="IT Corner, being amongst the Top IT Training Centers, offers a unique platform to students wherein they can not only learn the new technology and share knowledge on various subjects with other students and experienced professionals but can also enhance their skill sets through Real-Time Learning Experience.
+Most of the students will be at their most important cross roads of identifying the right Institute and the right course. Solving such an enigma is to be tackled by driving more interaction with the experienced professionals from across Industry. Our experts come forward to help you choose the right path out of diverse options available and lead a successful career"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+
+    </LinearLayout>
+</ScrollView>
+

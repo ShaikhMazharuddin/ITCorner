@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zxcv"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv"
+        android:background="@drawable/short_term_courses"
+        />
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:id="@+id/btn"
+        android:layout_below="@+id/iv"
+        android:layout_marginTop="10dp"
+        android:text="c"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:id="@+id/btn1"
+        android:layout_below="@+id/iv"
+        android:text="c++"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/btn"/>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:id="@+id/btn2"
+        android:layout_below="@+id/btn"
+        android:layout_marginTop="10dp"
+        android:text="Core/Adv Java"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:id="@+id/btn3"
+        android:layout_below="@+id/btn1"
+        android:text="Android"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/btn2"/>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:id="@+id/btn4"
+        android:layout_below="@+id/btn2"
+        android:layout_marginTop="10dp"
+        android:text="Php"/>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:id="@+id/btn5"
+        android:layout_below="@+id/btn3"
+        android:text="Web Desing"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/btn2"/>
+
+
+</RelativeLayout>

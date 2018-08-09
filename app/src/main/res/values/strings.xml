@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ITCorner</string>
+    <string name="title_activity_home_page">HomePage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Contact Us-->
+    <string name="officeAddress">Office Address</string>
+    <string name="puneHeadOffice">Pune(Head Office):</string>
+    <string name="puneAddress">Plot no 12, Birbal sadan , Paud Fata ,
+42 Erandwane Pune, 411038</string>
+    <string name="emailAddressPune">pune@itcorner.org.in</string>
+    <string name="callPune">+91 7722001132</string>
+
+    <string name="aurangabadOfficeCidco">Aurangabad (Cidco Branch):</string>
+    <string name="cidcoAddress">G-12, Town Center, Near Dwarkadas Shamkumar, Chistiya
+        Police Station To MGM Road, Aurangabad. </string>
+    <string name="callCidco">+91 7722001146</string>
+    <string name="aurangabadUsmanpuraOffice">Aurangabad (Osmanpura Branch):</string>
+    <string name="usmanpuraAddress">A-4, 2nd floor, Nakhate corner, near Utsav mangal karyalay, Osmanpura</string>
+    <string name="emailAurangabad1">aurangabad@itcorner.org.in</string>
+    <string name="emailAurangabad2">info@itcorner.org.in</string>
+    <string name="callUsmanpura">+91 7722001137</string>
+    <string name="timing">Timing</string>
+    <string name="mondayToSaturday">Monday - Saturday</string>
+    <string name="time">08:00 AM - 08:00 PM</string>
+    <string name="sunday">Sunday</string>
+    <string name="closed">Closed</string>
+</resources>

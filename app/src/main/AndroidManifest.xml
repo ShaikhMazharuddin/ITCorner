@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dotslash.itcorner">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutUs" />
+        <activity android:name=".RegistrationActivity" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ShortTermCourseActivity" />
+        <activity android:name=".ShortTermDiplomaActivity" />
+        <activity android:name=".AdvancedDiplomaActivity" />
+        <activity android:name=".DigitalMarketingActivity" />
+        <activity android:name=".Placement" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Cprogram" />
+        <activity android:name=".CPlusPlus" />
+        <activity android:name=".Java" />
+        <activity android:name=".Android" />
+        <activity android:name=".Php" />
+        <activity android:name=".DiplomaSoftware" />
+        <activity android:name=".DiplomaJava" />
+        <activity android:name=".DiplomaNet" />
+        <activity android:name=".AdvancedDiplomaInJava" />
+        <activity android:name=".AdvancedDplomaInNet" />
+        <activity android:name=".AdvancedDiplomaInOpenSource" />
+        <activity android:name=".WebDesign"></activity>
+    </application>
+
+</manifest>
