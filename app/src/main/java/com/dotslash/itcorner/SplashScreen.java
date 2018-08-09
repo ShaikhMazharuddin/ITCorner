@@ -17,6 +17,7 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 try {
                     Thread.sleep(3000);
+					//Thread.sleep(3000);
                     //startAnimations();
                     //finish();
                     startRegistrattioActivity();
